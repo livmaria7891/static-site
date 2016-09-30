@@ -1,0 +1,220 @@
+
+body{
+  font-family: 'Old Standard TT', serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Cabin", sans-serif;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color:#FF8A6E;
+}
+
+.top-bar{
+  padding-left: 10px;
+}
+
+header{
+  margin: 0 auto;
+  margin-top: 70px;
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 1rem;
+  color:gray;
+}
+
+.nav-bar{
+  width:30%;
+  display: inline-block;
+}
+
+.top-nav{
+  display: inline;
+  margin: 0 10px;
+  padding-right: 10px;
+}
+
+ul{
+  padding:0;
+  list-style: none;
+}
+
+hr{
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+section{
+  margin-top: 70px;
+}
+
+
+.post{
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 115px;
+}
+
+.title{
+  margin-left: -10;
+  margin-bottom: 0;
+  margin-top: -17%;
+}
+
+.entry{
+  line-height: 1.75;
+  color: gray;
+  margin-top: 3px;
+
+}
+
+.post-date{
+  /*border:1px solid black;*/
+  width: 15%;
+  margin-left: -25%;
+  text-align: right;
+}
+
+aside p{
+  margin:0;
+  font-size: .75rem;
+
+}
+
+.date{
+  font-size: 2em;
+  color:#FF8A6E;
+}
+
+footer * {
+  display: inline-block;
+}
+
+footer hr {
+  width: 100%;
+}
+footer{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.soc-media{
+  margin-right: 0;
+  width:83%;
+  text-align:right;
+  position: relative;
+  right:0;
+}
+
+/*STYLES FOR PORTFOLIO*/
+
+.sidebar{
+  display: inline-block;
+  width:25%;
+  vertical-align: top;
+  padding-top:5%;
+  text-align: center;
+}
+
+.sidebar{
+  color: gray;
+}
+
+.icons a{
+  font-size: 1.5rem;
+  color:#FF8A6E;
+}
+
+.text{
+  text-align: left;
+  margin-left: 35%;
+}
+
+.sidebar li{
+  margin: 0;
+  font-size: .9rem;
+
+}
+
+.portfolio-section{
+  display: inline-block;
+  width: 60%;
+  border-left:1px solid gray;
+  padding: 5%;
+}
+
+.page-name{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+img{
+  filter: grayscale(85%);
+  border-radius: 50%;
+  width: 50%;
+}
+
+.project h2, .project time{
+  /*font-family: 'Old Standard TT', serif;*/
+  vertical-align: bottom;
+  display: inline-block;
+  margin-bottom: 0;
+  color:gray;
+  font-weight: 100;
+}
+
+h2.project{
+  margin-right: 50%;
+}
+
+.project time{
+  margin-left: 2%;
+}
+
+.project a{
+  color:gray;
+}
+
+.project a:hover{
+  color:#FF8A6E;
+}
+
+.project{
+  border-bottom: solid 1px gray;
+
+}
+
+/*About.html Styles*/
+
+/*.bio section{
+  display: inline-block;
+}*/
+.bio img{
+  display: inline-block;
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.bio article{
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
